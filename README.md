@@ -1,6 +1,6 @@
 # windows-anisette
-This project is a minimal example (1 cpp file) of how to get Apple anisette data used for making iCloud requests like [resigning apps](https://github.com/rileytestut/AltStore) or [downloading offline finding location reports](https://github.com/seemoo-lab/openhaystack).  
-This example is based on the method used by [AltSever for Windows](https://github.com/rileytestut/AltServer-Windows), which works by extracting the anisette data from Apple's iCloud and iTunes for Windows apps.  
+This project is a minimal example (1 cpp file) of how to get Apple anisette data used for making iCloud requests like [resigning apps](https://github.com/rileytestut/AltStore) or [downloading offline finding location reports](https://github.com/seemoo-lab/openhaystack).
+This example is based on the method used by [AltSever for Windows](https://github.com/rileytestut/AltServer-Windows), which works by extracting the anisette data from Apple's iCloud and iTunes for Windows apps.
 I wrote this piece of sample code in an effort to find out how difficult it would be to get [openhaystack](https://github.com/seemoo-lab/openhaystack) running on Windows. See [openhaystack #63](https://github.com/seemoo-lab/openhaystack/issues/63) for more info.
 
 ## Compiling & Running
@@ -18,7 +18,7 @@ Loading DLLs
 7427DE64
 
 REQUEST HEADERS:
-Authorization:         BASE64("search-party-token:appleid_uuid")
+Authorization:         BASE64("appleid_uuid:search-party-token")
 X-Apple-I-MD:          AAAABQAAABCQg4wjx3FUtRfb3JBtdoCYAAAAAg==
 X-Apple-I-MD-RINFO:    17106176
 X-Apple-I-MD-M:        GUlN5KF92q9czOxk94MXTt9sfyGqEGE+7LoIYSJO07hUIIBdBPewuEebvwGjf8pYsMty2W5yhRuG2I98

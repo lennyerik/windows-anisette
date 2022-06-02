@@ -82,7 +82,7 @@ int main() {
     strftime(ClientTime, 32, "%FT%TZ", &gm);
 
     std::cout << "\nREQUEST HEADERS:\n";
-    std::cout << "Authorization:         " << "BASE64(\"search-party-token:appleid_uuid\")" << '\n';
+    std::cout << "Authorization:         " << "BASE64(\"appleid_uuid:search-party-token\")" << '\n';
     std::cout << "X-Apple-I-MD:          " << OTP << '\n';
     std::cout << "X-Apple-I-MD-RINFO:    " << "17106176" << '\n';  // Routing info seems to be constant
     std::cout << "X-Apple-I-MD-M:        " << machineID << '\n';
